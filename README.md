@@ -6,13 +6,13 @@ Welcome to my collection of Linux essentials notes and resources! This repositor
 
 ## Content:
 
-Basic commands (navigation, file management, permissions)
-User and group management
-Package management (apt)
-Networking basics (configuration, troubleshooting)
-Scripting examples (Bash)
-Troubleshooting tips and common errors
-Additional resources (links to tutorials, documentation)
+- Basic commands (navigation, file management, permissions)
+- User and group management
+- Package management (apt)
+- Networking basics (configuration, troubleshooting)
+- Scripting examples (Bash)
+- Troubleshooting tips and common errors
+- Additional resources (links to tutorials, documentation)
 
 ## Contributing:
 
@@ -20,7 +20,7 @@ Feel free to contribute by opening issues or pull requests. Share your knowledge
 
 ## License:
 
-This repository is in the public domain. You can use, modify, and distribute this work for any purpose, without permission or attribution. This is dedicated to the public under the terms of the CC0 1.0 Universal public domain dedication.
+This repository is in the public domain. You can use, modify, and distribute this work for any purpose, without permission or attribution. This is dedicated to the public under the terms of the [CC0 1.0 Universal](LICENSE) public domain dedication.
 
 ## Disclaimer:
 
