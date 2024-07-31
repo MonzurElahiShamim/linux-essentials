@@ -1,6 +1,6 @@
 # Linux Essentials Notes
 
-##Description:
+## Description:
 
 Welcome to my collection of Linux essentials notes and resources! This repository aims to provide a comprehensive overview of key Linux concepts and commands for beginners and anyone interested in learning more about Linux system administration.
 
