@@ -1,6 +1,6 @@
 ---
-updated_at: 2024-07-20T21:37:36.223+06:00
-edited_seconds: 350
+updated_at: 2024-08-01T09:25:47.479+06:00
+edited_seconds: 360
 ---
 # Users & Groups in Linux
 ### Topic List
