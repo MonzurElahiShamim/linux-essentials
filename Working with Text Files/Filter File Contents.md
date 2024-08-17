@@ -1,6 +1,6 @@
 ---
-updated_at: 2024-07-07T15:00:55.457+06:00
-edited_seconds: 140
+updated_at: 2024-08-17T18:49:53.064+06:00
+edited_seconds: 210
 ---
 # Filter File Contents
 
@@ -12,7 +12,7 @@ sysadmin@localhost:~$ grep bash /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 sysadmin:x:1001:1001:System Administrator,,,,:/home/sysadmin:/bin/bash
 ```
-To make it easier to see what exactly is matched, use the `--color` option. This option will highlight the matched items in red:
+To make it easier to see what exactly is matched, use the `--color` option. This option will highlight the matched items in red: 
 
 ```bash
 sysadmin@localhost:~$ grep --color bash /etc/passwd
@@ -69,3 +69,18 @@ There are three bathrooms.
 sysadmin@localhost:~/Documents$ grep -w are newhome.txt
 There are three bathrooms.
 ```
+
+
+>[!gemini]+ Gemini
+>The `grep` command filters lines from a file or command output that match a specified pattern. It supports various options:
+> 
+> - `--color`: Highlights matches in red.
+> - `-c`: Counts the number of matching lines.
+> - `-n`: Displays matching line numbers.
+> - `-v`: Inverts the match, showing non-matching lines.
+> - `-i`: Ignores case distinctions.
+> - `-w`: Only matches complete words.
+> 
+> For example, using `grep bash /etc/passwd` finds users with the BASH shell, with `--color` highlighting the matches. `grep -c bash /etc/passwd` counts the users with BASH, and `grep -v nologin /etc/passwd` lists users who do not have "nologin" in their entry.
+ 
+ 
