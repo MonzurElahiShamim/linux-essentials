@@ -1,6 +1,6 @@
 ---
-updated_at: 2024-08-20T09:57:26.284+06:00
-edited_seconds: 20
+updated_at: 2024-09-26T04:47:42.872+06:00
+edited_seconds: 60
 ---
 # Configuring WiFi with Netplan
 
@@ -8,7 +8,7 @@ Configuring WiFi using Netplan involves defining the wireless network interface 
 
 Here's a detailed guide on how to configure WiFi using Netplan:
 
-#### 1. **Basic WiFi Configuration**
+### 1. Basic WiFi Configuration
 
 To set up a basic WiFi connection, you need to specify the network interface, the access points (SSID), and the connection details:
 
@@ -32,7 +32,7 @@ network:
 - **`"MyNetwork":`**: The SSID (name) of the WiFi network you want to connect to.
 - **`password:`**: The password for the WiFi network.
 
-#### 2. **Static IP Configuration for WiFi**
+### 2. Static IP Configuration for WiFi
 
 If you need to set a static IP address for the WiFi interface, modify the configuration as follows:
 
@@ -59,7 +59,7 @@ network:
 - **`gateway4:`**: Specifies the default gateway for IPv4.
 - **`nameservers:`**: Defines DNS servers for name resolution.
 
-#### 3. **Multiple Access Points**
+### 3. Multiple Access Points
 
 To configure multiple access points, you can list them under `access-points`. The interface will try to connect to the first available network:
 
@@ -78,7 +78,7 @@ network:
 
 The interface will attempt to connect to "HomeNetwork" first. If it's not available, it will try "OfficeNetwork".
 
-#### 4. **Advanced Options**
+### 4. Advanced Options
 
 - **`optional: true`**: Marks the WiFi interface as optional, meaning the system won't wait for it to be up during boot.
 
@@ -108,7 +108,7 @@ The interface will attempt to connect to "HomeNetwork" first. If it's not availa
         band: "a"  # Use 5 GHz band
   ```
 
-#### 5. **Applying the Configuration**
+### 5. Applying the Configuration
 
 After modifying the Netplan configuration file, apply the changes with:
 
@@ -116,7 +116,7 @@ After modifying the Netplan configuration file, apply the changes with:
 sudo netplan apply
 ```
 
-#### 6. **Testing the Configuration**
+### 6. Testing the Configuration
 
 To test the configuration without applying it permanently, use:
 

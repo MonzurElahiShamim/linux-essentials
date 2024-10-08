@@ -1,17 +1,17 @@
 ---
-updated_at: 2024-08-20T09:47:32.475+06:00
-edited_seconds: 20
+updated_at: 2024-09-26T04:48:51.567+06:00
+edited_seconds: 90
 ---
 # Configuring Network Using Netplan
 
 Netplan is a network configuration tool introduced in Ubuntu 17.10 that simplifies the process of configuring network interfaces. It uses YAML files to describe network interfaces, and it integrates with systemd-networkd or NetworkManager to apply the configurations.
 
-#### 1. **Netplan Configuration Files**
+### 1. Netplan Configuration Files
    - Netplan configuration files are stored in `/etc/netplan/`.
    - These files have the `.yaml` extension.
    - Typically, the file is named something like `01-netcfg.yaml`, but the name can vary.
 
-#### 2. **Basic Structure of a Netplan Configuration**
+### 2. Basic Structure of a Netplan Configuration
    A Netplan configuration file follows a simple YAML structure:
 
    ```yaml
@@ -27,7 +27,7 @@ Netplan is a network configuration tool introduced in Ubuntu 17.10 that simplifi
    - **`ethernets:`**: Defines Ethernet interfaces.
    - **`eth0:`**: The name of the network interface. Replace `eth0` with the appropriate interface name on your system (e.g., `enp0s3`, `ens160`).
 
-#### 3. **Common Configuration Options**
+### 3. Common Configuration Options
    - **DHCP Configuration**: 
      - `dhcp4: yes` enables DHCP for IPv4, allowing the system to automatically receive an IP address.
      - `dhcp6: yes` enables DHCP for IPv6.
@@ -71,7 +71,7 @@ Netplan is a network configuration tool introduced in Ubuntu 17.10 that simplifi
          metric: 100
      ```
 
-#### 4. **Applying Configuration**
+### 4. Applying Configuration
    After editing a Netplan configuration file, apply the changes using the following command:
 
    ```bash
@@ -80,7 +80,7 @@ Netplan is a network configuration tool introduced in Ubuntu 17.10 that simplifi
 
    This command reads the configuration files, generates the necessary files for the backend (either systemd-networkd or NetworkManager), and applies the changes immediately.
 
-#### 5. **Testing Configuration**
+### 5. Testing Configuration
    Before applying a configuration permanently, you can test it to ensure there are no syntax errors or issues:
 
    ```bash
@@ -89,7 +89,7 @@ Netplan is a network configuration tool introduced in Ubuntu 17.10 that simplifi
 
    This command will apply the configuration temporarily. If it fails, the system will revert to the previous settings after a timeout.
 
-#### 6. **Advanced Configuration Options**
+### 6. Advanced Configuration Options
    - **Bridges**:
      Used to create virtual network bridges, often used in virtualization.
 
@@ -130,7 +130,7 @@ Netplan is a network configuration tool introduced in Ubuntu 17.10 that simplifi
            - 192.168.10.100/24
      ```
 
-#### 7. **Switching Between Backends**
+### 7. Switching Between Backends
    Netplan supports both `systemd-networkd` and `NetworkManager` as backends. You can choose which one to use by specifying it in the YAML file:
 
    ```yaml
@@ -139,7 +139,7 @@ Netplan is a network configuration tool introduced in Ubuntu 17.10 that simplifi
      renderer: networkd  # or NetworkManager
    ```
 
-#### 8. **Troubleshooting**
+### 8. Troubleshooting
    If network issues arise after applying a Netplan configuration:
    - Verify the YAML file syntax.
    - Check the interface names.

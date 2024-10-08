@@ -19,5 +19,5 @@ edited_seconds: 360
 	- [[User Configuration Files]]
 	- [[User Account Creating]]
 	- [[User Password Setting]]
-	- [[Modifying & Deleting User]]
+	- [[Modify & Delete User]]
 
