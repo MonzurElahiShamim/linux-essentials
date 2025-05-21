@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-13T18:45:24.167+06:00
-edited_seconds: 530
----
 # Navigating the Filesystem in Linux 
 ## The Linux Filesystem Structure
 

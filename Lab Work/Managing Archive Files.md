@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-26T21:00:36.933+06:00
-edited_seconds: 30
----
 ### Managing Archive Files
 
 This chapter delves into managing archive files through the command line in Linux, focusing on two primary aspects: **archiving** and **compression**. 

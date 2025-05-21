@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-20T21:38:02.828+06:00
-edited_seconds: 350
----
 # Ownership & Permission in Linux
 ### Topic list 
 

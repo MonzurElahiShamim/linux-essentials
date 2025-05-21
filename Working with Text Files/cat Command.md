@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-06T11:22:56.127+06:00
-edited_seconds: 110
----
 # `cat` Command
 
 The `cat` command, short for "*concatenate*" is a fundamental utility in Unix-like operating systems. 

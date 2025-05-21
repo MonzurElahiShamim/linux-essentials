@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-15T13:15:06.673+06:00
-edited_seconds: 460
----
 # Hardware of a computer 
 
 ## CPU 

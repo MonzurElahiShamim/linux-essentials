@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-16T16:54:48.714+06:00
-edited_seconds: 170
----
 # Switching Users in Linux
 
 The `su` (substitute user) command allows you to run a shell as a different user, commonly used to switch to the root user but also capable of switching to other users.

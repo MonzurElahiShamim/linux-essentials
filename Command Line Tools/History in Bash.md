@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-22T21:50:14.713+06:00
-edited_seconds: 1040
----
 # History in Shell
 
 When a command is executed in the terminal, it is stored in a history list, allowing easy re-execution without retyping. Here's how you can utilize this feature:

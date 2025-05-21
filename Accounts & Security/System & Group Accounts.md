@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-16T17:10:00.671+06:00
-edited_seconds: 10
----
 ### System Accounts in Linux
 
 **Purpose:**

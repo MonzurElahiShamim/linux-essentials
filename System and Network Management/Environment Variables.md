@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-18T13:49:00.216+06:00
-edited_seconds: 10
----
 ### Environment Variables in Shell
 
 **Environment variables**, or global variables, are accessible across all shell sessions and are recreated automatically when a new shell is opened. Common examples include `PATH`, `HOME`, and `HISTSIZE`. For instance, `HISTSIZE` determines the number of commands stored in the command history.

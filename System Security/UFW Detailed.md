@@ -1,12 +1,8 @@
----
-updated_at: 2024-08-01T15:25:06.694+06:00
-edited_seconds: 160
----
-## Detailed Note on UFW (Uncomplicated Firewall) Configuration
+# UFW (Uncomplicated Firewall) Configuration
 
-UFW (Uncomplicated Firewall) is a user-friendly frontend for managing iptables firewall rules. It is designed to make firewall configuration easier and straightforward for beginners. This guide provides a detailed note on configuring UFW on a Linux system.
+UFW (`Uncomplicated Firewall`) is a user-friendly frontend for managing iptables firewall rules. It is designed to make firewall configuration easier and straightforward for beginners. This guide provides a detailed note on configuring UFW on a Linux system.
 
-### Installation
+## Installation
 
 Before configuring UFW, ensure it is installed on your system.
 
@@ -27,7 +23,7 @@ sudo yum install ufw
 sudo pacman -S ufw
 ```
 
-### Basic UFW Commands
+## Basic UFW Commands
 
 #### Enable and Disable UFW
 
@@ -72,7 +68,7 @@ Setting default policies is crucial as they define the basic behavior of the fir
   sudo ufw default allow outgoing
   ```
 
-### Allowing and Denying Specific Connections
+## Allowing and Denying Specific Connections
 
 #### Allowing Connections
 
@@ -123,7 +119,7 @@ Setting default policies is crucial as they define the basic behavior of the fir
   sudo ufw deny from 192.168.1.100
   ```
 
-### Advanced UFW Configuration
+## Advanced UFW Configuration
 
 #### Application Profiles
 
@@ -179,21 +175,6 @@ Enable logging to keep track of blocked and allowed connections. Logging is esse
 - **Delete a rule denying a specific IP:**
   ```bash
   sudo ufw delete deny from 192.168.1.100
-  ```
-
-### UFW and IPv6
-
-By default, UFW is configured to support IPv6 as well as IPv4.
-
-- **Ensure UFW is configured for IPv6:**
-  Open the UFW configuration file:
-  ```bash
-  sudo nano /etc/default/ufw
-  ```
-
-  Set the following value:
-  ```text
-  IPV6=yes
   ```
 
 ### Advanced Configuration files

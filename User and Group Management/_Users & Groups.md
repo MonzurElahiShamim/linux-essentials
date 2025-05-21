@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-01T09:25:47.479+06:00
-edited_seconds: 360
----
 # Users & Groups in Linux
 ### Topic List
 

@@ -1,21 +1,11 @@
----
-updated_at: 2024-10-08T22:16:39.272+06:00
-edited_seconds: 850
----
-# Complete Guide to Setting Up VNC Server with GUI on Oracle Linux 7 and Connecting via SSH Tunnel
+# Setting Up VNC Server with GUI on `Oracle Linux 7` 
 
-This guide will walk you through installing a graphical desktop environment on Oracle Linux 7, setting up a VNC server, securing the connection using an SSH tunnel, and connecting from a local machine using a VNC client.
+This guide will walk you through :
+- Installing a graphical desktop environment on Oracle Linux 7, 
+- Setting up a VNC server, 
+- Securing the connection using an SSH tunnel, and 
+- Connecting from a local machine using a VNC client.
 
----
-
-### Prerequisites
-
-- **Oracle Linux 7** installed on the remote machine.
-- **Root** access or **sudo** privileges on the remote machine.
-- **SSH** access to the remote machine.
-- A **VNC client** installed on your local machine (e.g., TigerVNC, RealVNC, or TightVNC).
-
----
 
 ## Step 1: Install the Graphical Desktop Environment ("Server with GUI")
 
@@ -42,21 +32,6 @@ sudo yum groupinstall -y "Server with GUI"
 ```
 
 
----
-
-## Step 2: Install VNC Server
-
-We'll use **TigerVNC** as the VNC server.
-
-### 2.1. Install TigerVNC Server
-
-After the system reboots, log back in via SSH and install the VNC server:
-
-```bash
-sudo yum install -y tigervnc-server
-```
-
----
 
 ## Step 3: Configure VNC Server
 
@@ -134,37 +109,6 @@ Reload the systemd manager configuration:
 sudo systemctl daemon-reload
 ```
 
----
-
-## Step 4: Start and Enable the VNC Server Service
-
-### 4.1. Start the VNC Server
-
-Start the VNC server service on display `:1`:
-
-```bash
-sudo systemctl start vncserver_oracle@:1.service
-```
-
-### 4.2. Enable the VNC Server at Boot
-
-Enable the service to start at boot:
-
-```bash
-sudo systemctl enable vncserver_oracle@:1.service
-```
-
-### 4.3. Verify the VNC Server Status
-
-Check the status of the VNC server:
-
-```bash
-sudo systemctl status vncserver_oracle@:1.service
-```
-
-You should see that the service is active (running).
-
----
 
 ## Step 5: Configure the Firewall
 
@@ -185,35 +129,6 @@ sudo firewall-cmd --reload
 > firewall-cmd --list-all
 > ```
 
----
-
-## Step 6: Secure the VNC Connection Using SSH Tunnel
-
-We'll create an SSH tunnel from your local machine to the remote machine to securely access the VNC server.
-
->[!warning] Not needed if using without SSH Tunnel
-### 6.1. SSH Tunnel Setup (Local Port Forwarding)
-
-On your **local machine**, open a terminal and run:
-
-```bash
-ssh -L 5901:localhost:5901 vncuser@your-remote-server-ip
-```
-
-- **`-L 5901:localhost:5901`**: Forwards local port `5901` to `localhost:5901` on the remote machine.
-- **`vncuser@your-remote-server-ip`**: SSH login credentials for the remote machine.
-
-**Note**: We are using port `5901` on both local and remote machines. If port `5901` is already in use on your local machine, you can choose another local port, e.g., `5902`.
-
-Example with a different local port:
-
-```bash
-ssh -L 5902:localhost:5901 vncuser@your-remote-server-ip
-```
-
-Then, you would connect to `localhost:5902` in your VNC client.
-
----
 
 ## Step 7: Connect to the VNC Server Using a VNC Client
 
@@ -256,21 +171,6 @@ When prompted, enter the VNC password you set earlier for `oracle`.
 
 You should now see the remote desktop environment of your Oracle Linux 7 machine and can interact with it as if you were sitting in front of it.
 
----
-
-## Security Considerations
-
-1. **Do Not Expose VNC Port Publicly**: Since VNC traffic is not encrypted, do not open the VNC port (e.g., `5901`) on the remote machine's firewall to the internet. Always use an SSH tunnel for secure access.
-
-2. **Use SSH Keys**: For enhanced security, consider setting up SSH key-based authentication instead of password authentication.
-
-3. **Strong VNC Password**: Ensure the VNC password is strong and secure.
-
-4. **Keep Software Updated**: Regularly update your system packages to apply security patches.
-
-5. **Limit User Access**: Only authorized users should have access to the `vncuser` account and the VNC service.
-
----
 
 ## **Summary of Commands**
 
@@ -337,4 +237,3 @@ You should now see the remote desktop environment of your Oracle Linux 7 machine
    - **VNC Server Address**: `localhost:5901` or `localhost:1`
    - **VNC Password**: Enter the password set with `vncpasswd`
 
----

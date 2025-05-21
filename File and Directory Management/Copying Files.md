@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-20T21:41:54.338+06:00
-edited_seconds: 270
----
 # Copying Files
 
 The `cp` command copies files from a source to a destination. Here's a concise overview:

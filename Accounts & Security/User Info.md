@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-16T17:39:25.786+06:00
-edited_seconds: 10
----
 ### Viewing User Information with the `id` Command
 
 **Basic Usage:**

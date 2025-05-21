@@ -1,7 +1,3 @@
----
-updated_at: 2024-09-07T09:29:22.990+06:00
-edited_seconds: 50
----
 ## Modifying a User
 
 **Considerations:**

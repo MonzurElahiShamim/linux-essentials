@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-16T17:00:37.447+06:00
-edited_seconds: 20
----
 ### User Accounts in Linux
 
 **Location of User Account Data:**

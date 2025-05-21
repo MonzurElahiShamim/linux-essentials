@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-29T13:43:05.957+06:00
-edited_seconds: 10
----
 ## Comparing Hard and Symbolic Links
 
 While hard and symbolic links have the same result, the different techniques produce different advantages and disadvantages. In fact, the advantage of one technique compensates for a disadvantage of the other technique.

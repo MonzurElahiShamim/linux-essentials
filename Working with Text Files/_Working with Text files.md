@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-01T09:46:04.260+06:00
-edited_seconds: 240
----
 # Working with Text files
 
 - [[Viewing files in Terminal]]
@@ -18,4 +14,7 @@ edited_seconds: 240
 - [[uniq & sort]]
 - [[bat command]]
 - [[lsd command]]
+- [paste Command](paste%20Command.md)
+- [cut Command](cut%20Command.md) 
+- [tee](tee.md)
 - 

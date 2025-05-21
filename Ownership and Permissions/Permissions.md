@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-17T13:12:34.174+06:00
-edited_seconds: 230
----
 # Permissions
 
 The output of the `ls -l` command includes *ten characters* at the beginning of each line, indicating the **type of file** and the **permissions** associated with the file. Let's break down this output:

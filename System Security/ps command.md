@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-17T00:47:18.028+06:00
-edited_seconds: 40
----
 # `ps` command
 
 

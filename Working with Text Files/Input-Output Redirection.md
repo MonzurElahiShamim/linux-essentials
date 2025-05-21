@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-13T19:35:19.632+06:00
-edited_seconds: 430
----
 # Input/Output (I/O) Redirection
 
 >[!gemini]- Summarized
@@ -69,6 +65,7 @@ edited_seconds: 430
     - **`>`**: Redirects **STDOUT** to a file.
     - **`2>`**: Redirects **STDERR** to a file.
     - **`&>`**: Redirects both **STDOUT** & **STDERR** to a file.
+  - ![](Input-Output%20Redirection.png)
 ## STDOUT Redirection
 
 - **Definition**: Standard output (STDOUT) is the default stream for displaying command results.
@@ -88,7 +85,7 @@ edited_seconds: 430
 - **Basic Redirection**:
   - Redirect STDERR (stream #2) to a file using `2>`.
     ```bash
-    ls /fake 2> error.txt
+    ls /fake 2> error.txt # use 2>> to append
     ```
   - **Captures error messages** and stores them in the specified file.
 

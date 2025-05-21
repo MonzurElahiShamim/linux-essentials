@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-17T21:19:45.989+06:00
-edited_seconds: 140
----
 # Changing Permissions
 
 **`chmod` Command**:

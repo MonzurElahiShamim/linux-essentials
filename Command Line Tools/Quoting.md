@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-13T18:52:07.137+06:00
-edited_seconds: 520
----
 # Quoting in Bash
 
 In Bash scripting and Linux administration, quotation marks play a crucial role in handling text and commands. They instruct the shell on how to treat the enclosed content, whether to interpret it literally or to evaluate special characters and variables. Bash recognizes three primary types of quotes: double quotes `"`, single quotes `'`, and backquotes (backticks) `` ` ``. Each type of quotation affects the shell's interpretation of the enclosed text differently.

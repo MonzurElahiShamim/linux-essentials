@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-20T21:49:41.079+06:00
-edited_seconds: 230
----
 # Moving and Renaming Files
 
 To move or rename files in Linux, use the `mv` command. Here's a concise summary:

@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-13T18:56:15.397+06:00
-edited_seconds: 650
----
 
 ## To `start` a service:
 
@@ -42,8 +38,4 @@ systemctl enable httpd
 # systemctl disable service_name
 systemctl disable httpd
 ```
-
----
-
-> Need to learn: How to start an application as a service
 

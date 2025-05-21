@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-13T18:43:01.508+06:00
-edited_seconds: 100
----
 # Listing Files
 
 Listing files in a directory in Linux can be done using several commands. Here are the commonly used ones:

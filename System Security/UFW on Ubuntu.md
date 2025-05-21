@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-28T18:38:57.840+06:00
-edited_seconds: 1180
----
 # How to Set Up a Firewall with UFW on Ubuntu
 
 This tutorial will guide you through setting up a firewall with UFW on an Ubuntu system.
@@ -10,8 +6,6 @@ This tutorial will guide you through setting up a firewall with UFW on an Ubuntu
 
 [View original](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu)
 
----
----
 
 ## Setting Up a Firewall with UFW on Ubuntu
 

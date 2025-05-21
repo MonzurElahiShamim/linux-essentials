@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-27T23:33:59.357+06:00
-edited_seconds: 200
----
 # Command Types in Shell
 
 Understanding command types in the shell can help you use the command line interface (CLI) more effectively. The `type` command helps identify the type and source of a command.

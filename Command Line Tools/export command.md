@@ -1,7 +1,3 @@
----
-updated_at: 2024-09-10T19:34:07.584+06:00
-edited_seconds: 40
----
 ### `export` Command in Linux
 
 - **Purpose**: Sets and exports environment variables, making them available to child processes and scripts.

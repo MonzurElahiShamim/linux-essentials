@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-29T13:34:18.940+06:00
-edited_seconds: 20
----
 ## Creating Hard Links
 
 To understand hard links, it is helpful to understand a little bit about how the file system keeps track of files. For every file created, there is a block of data on the file system that stores the metadata of the file. Metadata includes information about the file like the permissions, ownership, and timestamps. Metadata does not include the file name or the contents of the file, but it does include just about all other information about the file.

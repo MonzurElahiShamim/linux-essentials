@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-06T12:30:48.763+06:00
-edited_seconds: 110
----
 # [[Command Line Pipes]]
 
 Command Line Pipes allow chaining commands together by using the `|` character to redirect the output of one command as input to another. This enables powerful operations, especially for refining data or processing large outputs without displaying them directly.

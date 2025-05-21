@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-01T09:59:54.921+06:00
-edited_seconds: 60
----
 ## LSD: A Stylish Upgrade to `ls`
 
 **lsd** is like the `ls` command on steroids. It's a tool that makes your directory listings look a lot nicer and provides more information. Think of it as adding some color and flair to your terminal.

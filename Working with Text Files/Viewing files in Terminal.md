@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-13T19:24:19.108+06:00
-edited_seconds: 770
----
 # Viewing files in Terminal
 ## Using [[cat Command]]
 

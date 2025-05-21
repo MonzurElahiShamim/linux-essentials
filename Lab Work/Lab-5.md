@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-19T12:44:13.474+06:00
-edited_seconds: 590
----
 
 Commands:
 - `ls` 

@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-17T18:49:53.064+06:00
-edited_seconds: 210
----
 # Filter File Contents
 
 The `grep` command can be used to filter lines in a file or the output of another command that matches a specified pattern. That pattern can be as simple as the exact text that you want to match or it can be much more advanced through the use of regular expressions.

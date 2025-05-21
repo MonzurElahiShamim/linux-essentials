@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-17T12:34:39.061+06:00
-edited_seconds: 40
----
 # Changing Groups
 
 >[!info] `newgrp` (To create new file with different group ownership)

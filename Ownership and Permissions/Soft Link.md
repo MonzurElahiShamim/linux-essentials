@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-29T13:36:40.774+06:00
-edited_seconds: 10
----
 ## Creating Symbolic Links
 
 A symbolic link, also called a soft link, is simply a file that points to another file. There are several symbolic links already on the system, including several in the `/etc` directory:

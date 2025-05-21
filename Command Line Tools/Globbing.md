@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-20T20:17:59.426+06:00
-edited_seconds: 90
----
 # Globbing
 
 - **Definition**: Globbing refers to the use of special symbol characters, known as wildcards, which have special meanings to the shell.

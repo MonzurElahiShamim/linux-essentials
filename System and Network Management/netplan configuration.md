@@ -1,7 +1,3 @@
----
-updated_at: 2024-09-26T04:48:51.567+06:00
-edited_seconds: 90
----
 # Configuring Network Using Netplan
 
 Netplan is a network configuration tool introduced in Ubuntu 17.10 that simplifies the process of configuring network interfaces. It uses YAML files to describe network interfaces, and it integrates with systemd-networkd or NetworkManager to apply the configurations.

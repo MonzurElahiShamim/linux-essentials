@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-24T15:21:00.199+06:00
-edited_seconds: 230
----
 # Managing Groups in Linux
 
 ### Creating a Group:

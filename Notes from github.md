@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-15T16:26:35.424+06:00
-edited_seconds: 110
----
 
 # Linux essentials
 

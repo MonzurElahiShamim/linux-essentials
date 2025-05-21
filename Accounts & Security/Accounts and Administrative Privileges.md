@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-16T16:21:53.807+06:00
-edited_seconds: 50
----
 # Introduction to User Accounts and Administrative Privileges in Linux
 
 ## User Accounts and Permissions:

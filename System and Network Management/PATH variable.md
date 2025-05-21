@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-18T13:59:14.260+06:00
-edited_seconds: 160
----
 # Path Variable
 
 One of the most important Bash shell variables to understand is the `PATH` variable. It contains a list that defines which directories the shell looks in to find commands. If a valid command is entered and the shell returns a "command not found" error, it is because the Bash shell was unable to locate a command by that name in any of the directories included in the path. The following command displays the path of the current shell:
@@ -46,4 +42,3 @@ sysadmin@localhost:~$ echo $PATH
 /usr/bin/custom:/home/sysadmin/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games 
 ```                                             
 
-When updating the `PATH` variable, always include the current path, so as not to lose access to commands located in those directories. This can be accomplished by appending `$PATH` to the value in the assignment expression. Recall that a variable name preceded by a dollar sign represents the value of the variable.

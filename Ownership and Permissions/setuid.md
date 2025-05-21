@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-29T22:13:01.636+06:00
-edited_seconds: 80
----
 
 View the permissions of the `/usr/bin/passwd` file:
 

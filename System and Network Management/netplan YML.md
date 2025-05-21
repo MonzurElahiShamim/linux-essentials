@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-20T09:47:12.093+06:00
-edited_seconds: 110
----
 # Network configuration using netplan
 #### Sample YAML configuration file
 

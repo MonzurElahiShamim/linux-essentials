@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-01T10:05:57.434+06:00
-edited_seconds: 140
----
 # `bat` : An upgrade to `cat`
 
 [video tutorial-learnlinuxtv](https://youtu.be/myg9zTf5aC8?si=ysJh_epKvthnpqUt)

@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-28T11:58:03.956+06:00
-edited_seconds: 250
----
 # Removing Files and Directories
 
 To delete files and directories in Linux, use the `rm` command. Here's a concise summary:

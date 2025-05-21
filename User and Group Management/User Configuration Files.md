@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-16T19:55:39.521+06:00
-edited_seconds: 30
----
 ### User Configuration Files
 
 The `useradd` command with the `-D` option shows or changes default values for new user accounts. These values can also be found and edited in `/etc/default/useradd`.

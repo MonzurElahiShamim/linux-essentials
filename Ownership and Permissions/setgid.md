@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-29T22:20:56.046+06:00
-edited_seconds: 150
----
 
 View the permissions on the `/usr/bin/wall` command:
 

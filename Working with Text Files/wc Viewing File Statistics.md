@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-13T19:19:30.550+06:00
-edited_seconds: 40
----
 # Viewing File Statistics with `wc` Command
 
 The `wc` command provides statistics such as the number of lines, words, and bytes in a file or set of files. Here’s how you can use it effectively:
@@ -46,6 +42,3 @@ The `wc` command provides statistics such as the number of lines, words, and byt
 ### Summary:
 The `wc` command is versatile for counting lines, words, and bytes in files, and it can be combined with options to tailor output based on specific needs. Its ability to handle input from both files and standard input makes it useful for various text processing tasks in Unix/Linux environments.
 
----
-
-This explanation provides a clear overview of how to use the `wc` command to gather file statistics and count lines in conjunction with other commands, highlighting its flexibility and practical applications.

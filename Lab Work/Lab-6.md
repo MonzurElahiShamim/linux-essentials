@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-19T17:55:45.947+06:00
-edited_seconds: 20
----
 Here are short descriptions for each of the listed commands:
 
 1. **`date`**

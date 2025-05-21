@@ -1,7 +1,3 @@
----
-updated_at: 2024-06-20T21:03:42.838+06:00
-edited_seconds: 310
----
 # Listing Files using wildcards (globs)
 In Linux, wildcard characters are used to match patterns in file and directory names when listing or performing operations on files. Here’s a guide to using wildcards with the `ls` command for listing files:
 

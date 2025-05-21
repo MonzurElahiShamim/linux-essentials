@@ -1,7 +1,3 @@
----
-updated_at: 2024-08-29T22:22:06.896+06:00
-edited_seconds: 60
----
 Why would an *administrator* want to set up a `setgid` directory? First, consider the following user accounts:
 
 - The user `bob` is a member of the `payroll` group.

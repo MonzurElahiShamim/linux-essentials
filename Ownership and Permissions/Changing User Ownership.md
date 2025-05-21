@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-17T12:49:19.413+06:00
-edited_seconds: 150
----
 # Changing User Ownership
 
 #### Purpose:

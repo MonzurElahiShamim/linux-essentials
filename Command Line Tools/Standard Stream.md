@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-13T19:31:20.645+06:00
-edited_seconds: 160
----
 # Standard Streams
 
 Standard streams in Unix/Linux systems are predefined input and output channels used for communication between programs and the operating system. They are essential for handling user input, displaying program output, and logging errors.

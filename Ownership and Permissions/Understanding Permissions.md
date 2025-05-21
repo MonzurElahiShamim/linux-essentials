@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-17T18:38:58.445+06:00
-edited_seconds: 780
----
 # Understanding Permissions
 The descriptions of the permission types can be handy, but just themselves, they don't provide a clear description of how permissions work. To better understand how permissions work, consider the following scenarios.
 

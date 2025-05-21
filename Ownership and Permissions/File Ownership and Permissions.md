@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-17T12:14:19.248+06:00
-edited_seconds: 50
----
 # File Ownership and Permissions
 
 **File Ownership:**

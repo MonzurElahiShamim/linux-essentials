@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-14T23:32:24.926+06:00
-edited_seconds: 720
----
 # Updating Hostname and `/etc/hosts` File
 
 ### Command to Set a New Hostname

@@ -1,7 +1,3 @@
----
-updated_at: 2024-09-26T04:47:42.872+06:00
-edited_seconds: 60
----
 # Configuring WiFi with Netplan
 
 Configuring WiFi using Netplan involves defining the wireless network interface and providing details such as the network SSID (name) and password. Netplan supports WiFi configuration through the `wifis` section in its YAML configuration files.

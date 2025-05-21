@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-17T10:57:16.780+06:00
-edited_seconds: 100
----
 ## Setting a User Password
 
 #### Methods:

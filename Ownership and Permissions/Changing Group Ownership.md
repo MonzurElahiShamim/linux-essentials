@@ -1,7 +1,3 @@
----
-updated_at: 2024-07-17T12:35:53.292+06:00
-edited_seconds: 50
----
 # Changing Group Ownership
 
 >[!info] `chgrp`  (To change the group ownership of existing file)

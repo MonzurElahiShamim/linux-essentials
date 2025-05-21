@@ -1,7 +1,3 @@
----
-updated_at: 2024-09-05T15:27:20.295+06:00
-edited_seconds: 190
----
 # `tee` Command in Linux
 
 #### Overview: 
