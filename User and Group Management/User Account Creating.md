@@ -30,6 +30,12 @@ root@localhost:~# useradd -G sales,research jane
 root@localhost:~# useradd -mk /home/sysadmin jane
 ```
 
+#### User with no interactive shell
+
+```bash
+sudo useradd -s /sbin/nologin rose
+```
+
 #### Comment:
 
 - **Use**: Typically holds the user's full name.

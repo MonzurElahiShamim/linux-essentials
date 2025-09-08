@@ -58,5 +58,3 @@ In Bash scripting, you can read user input using the `read` command. Here are so
    ```
 
    - The `-t` option sets a timeout in seconds for input. If no input is received within 5 seconds, the `age` variable remains empty.
-
-These examples should cover common scenarios for reading user input in Bash scripts. Let me know if you want examples for specific use cases!

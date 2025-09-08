@@ -21,7 +21,6 @@ sudo usermod -aG sudo <username>
 #### **Verify Access**
 
 Switch to the user and test:
-
 ```bash
 su - <username>
 sudo whoami
@@ -34,7 +33,6 @@ Expected Output: `root`.
 ### **2. Grant Sudo Privileges via `visudo`**
 
 Edit the sudoers file using `visudo` for better control:
-
 ```bash
 sudo visudo
 ```
@@ -42,7 +40,6 @@ sudo visudo
 #### **Full Access**
 
 Add the following line to give full sudo access:
-
 ```plaintext
 <username> ALL=(ALL:ALL) ALL
 ```
@@ -68,7 +65,6 @@ To restrict a user to specific commands:
 ```
 
 - **Example:** Allow restarting Apache and Nginx without a password:
-    
     ```plaintext
     john ALL=(ALL) NOPASSWD: /bin/systemctl restart apache2, /bin/systemctl restart nginx
     ```
